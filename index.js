@@ -18,7 +18,7 @@ function selectionSort(array){
   let sorted[]
   let newMin
   
-  while (array.length != 0)
+  while (array.length != "0")
   {
     console.log(array)
     newMin = findMinAndRemove(array)
