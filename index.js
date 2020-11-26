@@ -1,5 +1,6 @@
 function findMinAndRemove(array){
   var min = array[0]
+  var minIndex = 0
   for (var i = 1; i < array.length; i++)
   {
     if (min > array[i])
