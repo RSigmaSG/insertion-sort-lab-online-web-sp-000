@@ -20,7 +20,8 @@ function selectionSort(array){
   
   for (var i = 0; array.length !== 0 ; i++)
   {
-    sorted.push(findMinAndRemove(array))
+    newMin = findMinAndRemove(array)
+    sorted.push(newMin)
   }
   
   return sorted
