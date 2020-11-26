@@ -15,11 +15,15 @@ function findMinAndRemove(array){
 
 function selectionSort(array){
   
+  let sorted[];
   let newMin;
-  let sorted = [];
-  while (array.length != 0) {
-    newMin = minAndRemove(array);
-    sorted.push(newMin);
+  
+  while (array.length != 0)
+  {
+    console.log(array)
+    newMin = findMinAndRemove(array)
+    sorted.push(newMin)
   }
-  return sorted;
+  
+  return sorted
 }
