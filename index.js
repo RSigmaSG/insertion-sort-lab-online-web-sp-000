@@ -20,7 +20,7 @@ function selectionSort(array){
   
   while (array.length != "0")
   {
-    console.log(array)
+//    console.log(array)
     newMin = findMinAndRemove(array)
     sorted.push(newMin)
   }
