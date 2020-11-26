@@ -6,6 +6,7 @@ function findMinAndRemove(array){
     if (min > array[i])
     {
       min = array[i]
+      minIndex = i
     }
   }
   array.splice()
