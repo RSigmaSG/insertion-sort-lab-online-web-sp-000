@@ -16,6 +16,7 @@ function findMinAndRemove(array){
 function selectionSort(array){
   
   var sorted
+  var newMin
   
   for (var i = 0; array.length !== 0 ; i++)
   {
