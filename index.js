@@ -20,8 +20,6 @@ function selectionSort(array){
   
   while (array.length != 0)
   {
-    console.log(array)
-
     sorted.push(findMinAndRemove(array))
   }
   
